@@ -7,4 +7,8 @@ Console.WriteLine(binary); // Двоично представяне
 Console.WriteLine(converted); // Конвертираният към ulong string
 Console.WriteLine(converted==number); // Сравняваме първоначалното и крайното число
 
+
 Updating with Bash…
+
+Update with Tortoise…
+
