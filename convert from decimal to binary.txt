@@ -1,0 +1,8 @@
+ulong number = ulong.MaxValue; // Взимаме максималната стойност на ulong
+string binary = Convert.ToString((long)number, 2); // Конвертираме го в двоична бройна система
+ulong converted = Convert.ToUInt64(binary, 2); // Конвертираме двоичното число отново към ulong за проверка
+
+Console.WriteLine(number); // Първоначалното число
+Console.WriteLine(binary); // Двоично представяне
+Console.WriteLine(converted); // Конвертираният към ulong string
+Console.WriteLine(converted==number); // Сравняваме първоначалното и крайното число
